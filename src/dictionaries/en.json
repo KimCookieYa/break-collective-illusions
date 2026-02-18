@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "title": "Break Collective Illusions",
+    "description": "Discover the gap between what you think others believe and what they actually think."
+  },
+  "swipe": {
+    "swipeLeft": "Disagree",
+    "swipeRight": "Agree",
+    "neutral": "Neutral",
+    "skip": "Skip",
+    "undo": "Undo",
+    "stronglyDisagree": "Strongly Disagree",
+    "disagree": "Disagree",
+    "agree": "Agree",
+    "stronglyAgree": "Strongly Agree",
+    "dragHint": "Swipe left or right, or use the buttons"
+  },
+  "distribution": {
+    "prompt": "What percentage of people do you think agree?",
+    "confirm": "Confirm",
+    "dragHint": "Drag or tap the bar to adjust",
+    "disagree": "Disagree",
+    "agree": "Agree",
+    "willAgree": "will agree"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "start": "Start"
+  },
+  "landing": {
+    "headline": "Break the Collective Illusion",
+    "subheadline": "We often assume others think differently than us. But do they really?",
+    "cta": "Start the Test",
+    "learnMore": "Learn More",
+    "dailyQuestion": "Daily Question",
+    "dailyQuestionDesc": "1 minute a day, break one illusion"
+  },
+  "quiz": {
+    "questionPrefix": "Question",
+    "of": "of",
+    "guessPrompt": "What percentage of people do you think agree?",
+    "yourGuess": "Your Guess",
+    "submit": "Submit",
+    "next": "Next Question",
+    "finish": "See Results",
+    "timeRemaining": "~{time} min left",
+    "halfwayBoost": "Halfway there! You're doing great 🎯",
+    "almostDone": "Almost done! Just a few more 💪"
+  },
+  "onboarding": {
+    "title": "How it works",
+    "step1": "Share your opinion on each question",
+    "step2": "Guess what % of people agree",
+    "step3": "See the actual statistics",
+    "result": "Get your 'Illusion Index' score!",
+    "start": "Let's Go",
+    "skip": "Skip",
+    "examplesTitle": "First, see collective illusion in action",
+    "examplesSubtitle": "Discover how much we misread each other",
+    "tapToReveal": "Tap to reveal",
+    "yourGuess": "What's your guess?",
+    "actualResult": "Actual result",
+    "surprised": "Surprised?",
+    "nextExample": "Next example",
+    "startQuiz": "Try it yourself",
+    "examples": {
+      "work": {
+        "question": "What % of people value 'meaning' over money at work?",
+        "commonGuess": "30-40%",
+        "actual": "87%",
+        "insight": "Most people value meaning, but assume 'others just chase money.'"
+      },
+      "marriage": {
+        "question": "What % of Americans support same-sex marriage?",
+        "commonGuess": "40-50%",
+        "actual": "71%",
+        "insight": "Even supporters stayed silent, thinking 'I'm probably the minority.'"
+      },
+      "climate": {
+        "question": "What % of people think climate change is serious?",
+        "commonGuess": "50-60%",
+        "actual": "80%+",
+        "insight": "The loud minority made skeptics seem like the majority."
+      }
+    }
+  },
+  "reveal": {
+    "actual": "Actual Statistics",
+    "yourGuess": "Your Guess",
+    "difference": "Difference",
+    "source": "Source",
+    "insight": "Insight",
+    "next": "Next Question",
+    "finish": "See Results",
+    "communityGuess": "Community Average Guess",
+    "communityVotes": "votes",
+    "communityHidden": "Visible after 10+ participants",
+    "communityProgress": "{current} participating (10 needed)",
+    "showMore": "Show more",
+    "showLess": "Show less"
+  },
+  "result": {
+    "title": "Your Illusion Index",
+    "subtitle": "The gap between your expectations and reality",
+    "average": "Average Error",
+    "message": {
+      "low": "Impressive! You have a good sense of public opinion.",
+      "medium": "Interesting. We all have some degree of collective illusion.",
+      "high": "Surprising, right? We know each other less than we think."
+    },
+    "restart": "Start Over",
+    "share": "Share Results",
+    "communityStats": "Community Statistics",
+    "communityAverage": "Community Average",
+    "participants": "participants",
+    "viewDashboard": "View All Question Statistics",
+    "topSurprises": "Your Top 3 Surprises",
+    "surpriseRank": "",
+    "personalityTitle": "Your Type",
+    "personality": {
+      "optimist": {
+        "title": "Hopeful Optimist 🌟",
+        "description": "You tend to believe people think more positively than they actually do."
+      },
+      "pessimist": {
+        "title": "Cautious Pessimist 🔍",
+        "description": "You tend to believe people think more negatively than they actually do."
+      },
+      "realist": {
+        "title": "Accurate Realist 🎯",
+        "description": "Impressive! You have a good read on what people actually think."
+      },
+      "contrarian": {
+        "title": "Independent Thinker 💡",
+        "description": "Your guesses vary widely. You judge each situation on its own merits."
+      }
+    }
+  },
+  "about": {
+    "title": "What is Collective Illusion?",
+    "subtitle": "Understanding how we misread each other",
+    "origin": {
+      "title": "How This Project Started",
+      "content": "This project was inspired by 'Collective Illusions' by Todd Rose, a professor at Harvard Graduate School of Education. While reading, I kept asking myself: 'Am I falling for these illusions too?' That question led me to create this interactive experience."
+    },
+    "problem": {
+      "title": "What is a Collective Illusion?",
+      "content": "A collective illusion occurs when people privately disagree with something but wrongly assume that 'others will agree.' This leads to situations where 'what no one actually wanted' becomes collectively entrenched as if everyone wanted it.",
+      "causes": {
+        "title": "Why does this happen?",
+        "item1": "Our instinct to conform to perceived group norms",
+        "item2": "The tendency to stay silent even when we disagree",
+        "item3": "The loud minority appearing to represent the majority"
+      },
+      "quote": "The signals created by the loudest few—strong conviction, aggressive expression, repeated exposure—make their views appear to be the majority opinion, reinforcing the illusion."
+    },
+    "purpose": {
+      "title": "The Purpose of This Project",
+      "content": "We unconsciously assume 'others think differently than me.' This project uses real statistical data to show how far off those assumptions can be.",
+      "examples": {
+        "title": "For example:",
+        "item1": "\"I support same-sex marriage, but most others probably oppose it\"",
+        "item2": "\"I value meaning over money at work, but everyone else just chases money\"",
+        "item3": "\"I think climate change is serious, but there must be more skeptics\""
+      },
+      "conclusion": "Real statistics often overturn our expectations. Through this experience, we want to convey: 'Don't assume—verify.'"
+    },
+    "vision": {
+      "title": "Where We're Heading",
+      "content": "We hope this project becomes more than just a quiz—a small experiment that reveals the 'true distribution' of our society.",
+      "goals": {
+        "item1": "Individual level: A starting point to shed silence and speak small truths",
+        "item2": "Social level: A window to hear the quiet majority, not just the loud minority",
+        "item3": "Ultimately: A society that understands each other more accurately and reduces unnecessary conformity"
+      },
+      "quote": "Don't assume. Verify. Design systems that let people speak."
+    },
+    "bookInfo": {
+      "title": "Reference",
+      "bookTitle": "Collective Illusions",
+      "author": "Todd Rose",
+      "description": "Professor at Harvard Graduate School of Education and pioneer in individuality research. Author of 'The End of Average.'"
+    }
+  },
+  "footer": {
+    "credit": "Inspired by Todd Rose's 'Collective Illusions'",
+    "github": "GitHub"
+  },
+  "dashboard": {
+    "title": "All Questions",
+    "subtitle": "Collective Illusion Statistics Dashboard",
+    "totalQuestions": "questions",
+    "category": {
+      "all": "All",
+      "social": "Social",
+      "political": "Political",
+      "workplace": "Workplace",
+      "values": "Values"
+    },
+    "card": {
+      "actualStat": "Actual Statistics",
+      "communityGuess": "Community Guess",
+      "participants": "participants",
+      "notEnoughData": "Collecting data",
+      "source": "Source"
+    },
+    "empty": "No questions in this category"
+  },
+  "cohort": {
+    "title": "Compare with Friends",
+    "createGroup": "Create Group",
+    "joinGroup": "Join Group",
+    "groupName": "Group Name",
+    "inviteLink": "Invite Link",
+    "copyLink": "Copy Link",
+    "copied": "Copied!",
+    "members": "members",
+    "leaveGroup": "Leave Group",
+    "yourGroup": "Your Group",
+    "groupStats": "Group Stats",
+    "vsEveryone": "Compare with Everyone"
+  },
+  "badges": {
+    "title": "Earned Badges",
+    "newBadge": "New Badge Earned!",
+    "consensusWhisperer": {
+      "title": "Consensus Whisperer",
+      "description": "Achieved within 10% accuracy on 3+ questions"
+    },
+    "contrarianRadar": {
+      "title": "Contrarian Radar",
+      "description": "Had 2+ questions with significantly off predictions"
+    },
+    "realityCheck": {
+      "title": "Reality Check",
+      "description": "Completed your first quiz"
+    },
+    "illusionBreaker": {
+      "title": "Illusion Breaker",
+      "description": "Completed 5+ quizzes"
+    },
+    "streakMaster": {
+      "title": "Streak Master",
+      "description": "Participated for 7 consecutive days"
+    },
+    "explorer": {
+      "title": "Explorer",
+      "description": "Answered 10+ questions"
+    }
+  },
+  "demographics": {
+    "title": "Demographic Comparison",
+    "subtitle": "Compare results with similar groups",
+    "ageGroup": "Age Group",
+    "gender": "Gender",
+    "optional": "(optional)",
+    "save": "Save",
+    "compareWith": "Compare with",
+    "myGroup": "My Group",
+    "allUsers": "All Users"
+  }
+}
