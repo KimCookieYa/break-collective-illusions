@@ -1,36 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# break-collective-illusions
 
-## Getting Started
+프로젝트명 : 집단 착각 부수기
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 이 프로젝트는 토드 로즈 교수의 책 "집단 착각"을 읽고 영감을 받아 기획되었다.
+- "집단 착각"에서 말하는 핵심은 "사람들은 실제로는 동의하지 않으면서도, '다른 사람들은 동의할 것'이라고 잘못 추정하기 때문에(=추론 오류) 어떤 규범/의견/행동에 공개적으로 순응하고, 그 결과 '아무도 원하지 않는 일'이 집단적으로 굳어진다는 점이다.
+- 집단 착각은 왜 생길까? 단순한 동조 의식을 넘어서 "집단 규범과 어긋나지 않으려는 본능", "틀렸다고 느껴도 말하지 않고 방관/침묵하는 행동"이 결합하면서 착각이 커진다는 점이다. 특히 가장 시끄러운 소수가 만들어내는 신호(강한 확신, 공격적 표현, 반복 노출)가 '다수의 의견'처럼 보이게 만들어 착각을 강화한다고 한다.
+- 위와 같은 문제를 어떻게 해결할 수 있을까 고민해보았다. 책이 주는 실천 메시지는 요약하면 “추정하지 말고, 확인하고, 말할 수 있게 설계하라”이다.
+  - 개인 차원: 침묵/가면을 벗고 작은 진실을 말하는 행동이 착각을 깨는 촉발점이 될 수 있다고 강조합니다.  ￼
+  - 집단/조직 차원: 익명 설문, 선호의 사전 수집, 반대 의견을 안전하게 내는 규칙처럼 “진짜 분포”가 드러나게 만드는 장치를 두면, 시끄러운 소수의 신호가 다수로 오인되는 문제를 줄일 수 있습니다(원서/소개에서 반복되는 핵심 방향).
+- 이 책을 바탕으로 나는, 사람들이 무의식적으로 '다른 사람들은 동의할 것'이라고 생각하는 요소에 대해, 실제 다른 사람들은 그렇게 생각하지 않는다고, 실제 통계치/분포를 보여줌으로써 집단 착각의 환상을 부수려고 한다.
+- 이 프로젝트는 실제 사람들이 대표적으로 집단 착각을 하고 있는 질문들, "돈과 개인의 성취 중에서 난 개인의 성취를 중요시하지만, 대부분의 사람들이 돈을 중요시할 것이다.", "난 동성결혼을 지지하지만, 다른 사람들은 혐오할 것이다." 와 같은 질문들에 실제 통계 자료를 보여줌으로써 집단착각이 사회에 얼마나 팽배하고 발생하기 쉬운지 보여주고자 한다.
+- 기술 스택 : Next.js 16 (App Router) + Shadcn/ui + tailwindcss
+- 배포 방식 : github pages로 배포 + 주기적인 배포를 위해 github actions로 24시간마다 페이지 재생성
+- 이 웹사이트를 만들어줘.# break-collective-illusions
