@@ -46,9 +46,9 @@ export default async function LocaleLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="mx-auto w-[800px] min-h-screen flex gap-x-[80px]">
+        <div className="mx-auto max-w-mobile md:max-w-[800px] min-h-screen flex gap-x-[80px]">
           <Sidebar />
-          <main className="flex-1 max-w-mobile bg-white shadow-sm border-x border-gray-200">
+          <main className="flex-1  bg-white md:shadow-sm md:border-x border-gray-200">
             {children}
           </main>
         </div>

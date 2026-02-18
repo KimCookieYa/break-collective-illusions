@@ -20,7 +20,7 @@ export default async function Home({
       </Suspense>
       <main className="flex flex-col items-center gap-8 text-center">
         <div className="flex flex-col gap-4">
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl break-keep">
             {dict.landing.headline}
           </h1>
           <p className="text-lg text-muted-foreground sm:text-xl">
